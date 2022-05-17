@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		A35665F72830DC3D001B3EF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35665F62830DC3D001B3EF4 /* AppDelegate.swift */; };
 		A35665F92830DC3D001B3EF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35665F82830DC3D001B3EF4 /* SceneDelegate.swift */; };
-		A35665FB2830DC3D001B3EF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35665FA2830DC3D001B3EF4 /* ViewController.swift */; };
-		A35665FE2830DC3D001B3EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35665FC2830DC3D001B3EF4 /* Main.storyboard */; };
-		A35666002830DC40001B3EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35665FF2830DC40001B3EF4 /* Assets.xcassets */; };
-		A35666032830DC40001B3EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35666012830DC40001B3EF4 /* LaunchScreen.storyboard */; };
+		A35666182830DE13001B3EF4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35666172830DE13001B3EF4 /* AboutViewController.swift */; };
+		A356661A2830DE2E001B3EF4 /* AboutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35666192830DE2E001B3EF4 /* AboutInteractor.swift */; };
+		A356661C2830DE3E001B3EF4 /* AboutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356661B2830DE3E001B3EF4 /* AboutPresenter.swift */; };
+		A356661E2830DE65001B3EF4 /* AboutConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356661D2830DE65001B3EF4 /* AboutConfigurator.swift */; };
+		A35666202830DE78001B3EF4 /* AboutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356661F2830DE78001B3EF4 /* AboutRouter.swift */; };
+		A35666222830DEAC001B3EF4 /* AboutProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35666212830DEAC001B3EF4 /* AboutProtocols.swift */; };
+		A3BB1FFB2832BFF7003581F1 /* ServicesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BB1FFA2832BFF7003581F1 /* ServicesProtocols.swift */; };
+		A3BB1FFD2832C08F003581F1 /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BB1FFC2832C08F003581F1 /* ServerService.swift */; };
+		A3E5D83B2833C92C00DD654E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D83A2833C92C00DD654E /* View.swift */; };
+		A3E5D83D2833C93900DD654E /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D83C2833C93900DD654E /* Interactor.swift */; };
+		A3E5D83F2833C94400DD654E /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D83E2833C94400DD654E /* Presenter.swift */; };
+		A3E5D8412833C95000DD654E /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D8402833C95000DD654E /* Entity.swift */; };
+		A3E5D8432833C95800DD654E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D8422833C95800DD654E /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A35665F32830DC3D001B3EF4 /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35665F62830DC3D001B3EF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A35665F82830DC3D001B3EF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A35665FA2830DC3D001B3EF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A35665FD2830DC3D001B3EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A35665FF2830DC40001B3EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A35666022830DC40001B3EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A35666042830DC40001B3EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35666172830DE13001B3EF4 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		A35666192830DE2E001B3EF4 /* AboutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutInteractor.swift; sourceTree = "<group>"; };
+		A356661B2830DE3E001B3EF4 /* AboutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPresenter.swift; sourceTree = "<group>"; };
+		A356661D2830DE65001B3EF4 /* AboutConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutConfigurator.swift; sourceTree = "<group>"; };
+		A356661F2830DE78001B3EF4 /* AboutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutRouter.swift; sourceTree = "<group>"; };
+		A35666212830DEAC001B3EF4 /* AboutProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutProtocols.swift; sourceTree = "<group>"; };
+		A3BB1FFA2832BFF7003581F1 /* ServicesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesProtocols.swift; sourceTree = "<group>"; };
+		A3BB1FFC2832C08F003581F1 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
+		A3E5D83A2833C92C00DD654E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		A3E5D83C2833C93900DD654E /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		A3E5D83E2833C94400DD654E /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		A3E5D8402833C95000DD654E /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		A3E5D8422833C95800DD654E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,72 @@
 		A35665F52830DC3D001B3EF4 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				A35665F62830DC3D001B3EF4 /* AppDelegate.swift */,
-				A35665F82830DC3D001B3EF4 /* SceneDelegate.swift */,
-				A35665FA2830DC3D001B3EF4 /* ViewController.swift */,
-				A35665FC2830DC3D001B3EF4 /* Main.storyboard */,
-				A35665FF2830DC40001B3EF4 /* Assets.xcassets */,
-				A35666012830DC40001B3EF4 /* LaunchScreen.storyboard */,
-				A35666042830DC40001B3EF4 /* Info.plist */,
+				A3E5D8382833C88C00DD654E /* General */,
+				A35666142830DD8A001B3EF4 /* Modules */,
+				A3BB1FF92832BFBD003581F1 /* Services */,
 			);
 			path = VIPER;
+			sourceTree = "<group>";
+		};
+		A35666142830DD8A001B3EF4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A35666152830DD92001B3EF4 /* Main */,
+				A35666162830DD98001B3EF4 /* About */,
+				A3E5D8392833C91500DD654E /* Users */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A35666152830DD92001B3EF4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A35666162830DD98001B3EF4 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				A35666172830DE13001B3EF4 /* AboutViewController.swift */,
+				A356661B2830DE3E001B3EF4 /* AboutPresenter.swift */,
+				A35666192830DE2E001B3EF4 /* AboutInteractor.swift */,
+				A356661D2830DE65001B3EF4 /* AboutConfigurator.swift */,
+				A356661F2830DE78001B3EF4 /* AboutRouter.swift */,
+				A35666212830DEAC001B3EF4 /* AboutProtocols.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		A3BB1FF92832BFBD003581F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A3BB1FFC2832C08F003581F1 /* ServerService.swift */,
+				A3BB1FFA2832BFF7003581F1 /* ServicesProtocols.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A3E5D8382833C88C00DD654E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				A35665F62830DC3D001B3EF4 /* AppDelegate.swift */,
+				A35665F82830DC3D001B3EF4 /* SceneDelegate.swift */,
+				A35666042830DC40001B3EF4 /* Info.plist */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		A3E5D8392833C91500DD654E /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				A3E5D83A2833C92C00DD654E /* View.swift */,
+				A3E5D83C2833C93900DD654E /* Interactor.swift */,
+				A3E5D83E2833C94400DD654E /* Presenter.swift */,
+				A3E5D8402833C95000DD654E /* Entity.swift */,
+				A3E5D8422833C95800DD654E /* Router.swift */,
+			);
+			path = Users;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +200,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A35666032830DC40001B3EF4 /* LaunchScreen.storyboard in Resources */,
-				A35666002830DC40001B3EF4 /* Assets.xcassets in Resources */,
-				A35665FE2830DC3D001B3EF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +210,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A35665FB2830DC3D001B3EF4 /* ViewController.swift in Sources */,
+				A3BB1FFD2832C08F003581F1 /* ServerService.swift in Sources */,
+				A35666222830DEAC001B3EF4 /* AboutProtocols.swift in Sources */,
+				A3E5D8412833C95000DD654E /* Entity.swift in Sources */,
+				A35666202830DE78001B3EF4 /* AboutRouter.swift in Sources */,
+				A356661C2830DE3E001B3EF4 /* AboutPresenter.swift in Sources */,
+				A3BB1FFB2832BFF7003581F1 /* ServicesProtocols.swift in Sources */,
+				A356661A2830DE2E001B3EF4 /* AboutInteractor.swift in Sources */,
+				A3E5D8432833C95800DD654E /* Router.swift in Sources */,
+				A3E5D83D2833C93900DD654E /* Interactor.swift in Sources */,
 				A35665F72830DC3D001B3EF4 /* AppDelegate.swift in Sources */,
+				A35666182830DE13001B3EF4 /* AboutViewController.swift in Sources */,
+				A356661E2830DE65001B3EF4 /* AboutConfigurator.swift in Sources */,
+				A3E5D83F2833C94400DD654E /* Presenter.swift in Sources */,
+				A3E5D83B2833C92C00DD654E /* View.swift in Sources */,
 				A35665F92830DC3D001B3EF4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A35665FC2830DC3D001B3EF4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A35665FD2830DC3D001B3EF4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A35666012830DC40001B3EF4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A35666022830DC40001B3EF4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A35666052830DC40001B3EF4 /* Debug */ = {
@@ -289,7 +354,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44XPNUG6JL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VIPER/Info.plist;
+				INFOPLIST_FILE = VIPER/General/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +382,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44XPNUG6JL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VIPER/Info.plist;
+				INFOPLIST_FILE = VIPER/General/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
