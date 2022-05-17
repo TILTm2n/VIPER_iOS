@@ -18,10 +18,16 @@ class UserViewController: UIViewController, AnyView {
     
     private let tableView: UITableView = {
         let table = UITableView()
+        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        table.isHidden = true
+        return table
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(tableView)
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     
     func update(with users: [User]) {
@@ -30,5 +36,17 @@ class UserViewController: UIViewController, AnyView {
     
     func update(with users: String) {
         
+    }
+}
+
+extension UserViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        
+        return cell
     }
 }

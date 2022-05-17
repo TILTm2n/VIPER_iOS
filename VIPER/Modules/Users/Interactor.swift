@@ -15,6 +15,6 @@ class UserInteractor: AnyInteractor {
     weak var presenter: AnyPresenter?
     
     func getUsers() {
-        <#code#>
+        
     }
 }

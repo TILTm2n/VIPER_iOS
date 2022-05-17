@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol AnyView: AnyObject {
     
@@ -13,14 +14,6 @@ protocol AnyView: AnyObject {
     
     func update(with users: [User])
     func update(with users: String)
-    
-}
-
-protocol AnyInteractor: AnyObject {
-    
-    var presenter: AnyPresenter? { get set }
-    
-    func getUsers()
     
 }
 
@@ -34,7 +27,18 @@ protocol AnyPresenter: AnyObject {
     
 }
 
+protocol AnyInteractor: AnyObject {
+    
+    var presenter: AnyPresenter? { get set }
+    
+    func getUsers()
+    
+}
+
 protocol AnyRouter: AnyObject {
+    
+    var entry: EntryPoint? { get }
+    
     static func start() -> AnyRouter
 }
 
