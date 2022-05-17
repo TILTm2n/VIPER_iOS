@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+//object
+//entry point
+
+class UserRouter: AnyRouter {
+    static func start() -> AnyRouter {
+        let router = UserRouter()
+        
+        return router
+    }
+}
