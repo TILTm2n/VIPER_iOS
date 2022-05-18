@@ -11,3 +11,8 @@ protocol ServerServiceProtocol: AnyObject {
     var urlRatesSource: String { get }
     func openUrl(with urlString: String)
 }
+
+protocol UsersServiceProtocol {
+    var urlUsersSource: String { get set }
+    func getUsers(with urlString: String)
+}

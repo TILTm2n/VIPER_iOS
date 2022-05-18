@@ -23,6 +23,7 @@
 		A3E5D8412833C95000DD654E /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D8402833C95000DD654E /* Entity.swift */; };
 		A3E5D8432833C95800DD654E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D8422833C95800DD654E /* Router.swift */; };
 		A3E5D8452833CF4F00DD654E /* UsersProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D8442833CF4F00DD654E /* UsersProtocols.swift */; };
+		A3E5D84728343A6800DD654E /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D84628343A6800DD654E /* UsersService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		A3E5D8402833C95000DD654E /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		A3E5D8422833C95800DD654E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		A3E5D8442833CF4F00DD654E /* UsersProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProtocols.swift; sourceTree = "<group>"; };
+		A3E5D84628343A6800DD654E /* UsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				A3BB1FFC2832C08F003581F1 /* ServerService.swift */,
 				A3BB1FFA2832BFF7003581F1 /* ServicesProtocols.swift */,
+				A3E5D84628343A6800DD654E /* UsersService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				A356661E2830DE65001B3EF4 /* AboutConfigurator.swift in Sources */,
 				A3E5D83F2833C94400DD654E /* Presenter.swift in Sources */,
 				A3E5D83B2833C92C00DD654E /* View.swift in Sources */,
+				A3E5D84728343A6800DD654E /* UsersService.swift in Sources */,
 				A35665F92830DC3D001B3EF4 /* SceneDelegate.swift in Sources */,
 				A3E5D8452833CF4F00DD654E /* UsersProtocols.swift in Sources */,
 			);
@@ -361,7 +365,6 @@
 				INFOPLIST_FILE = VIPER/General/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -389,7 +392,6 @@
 				INFOPLIST_FILE = VIPER/General/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

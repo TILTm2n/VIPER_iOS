@@ -8,6 +8,10 @@
 import Foundation
 import UIKit
 
+enum FetchError: Error {
+    case failed
+}
+
 protocol AnyView: AnyObject {
     
     var presenter: AnyPresenter? { get set }
