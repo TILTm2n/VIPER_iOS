@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol MainProtocol {
+protocol MainProtocol: AnyObject {
     
 }
