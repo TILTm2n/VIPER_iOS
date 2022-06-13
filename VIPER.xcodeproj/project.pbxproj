@@ -15,6 +15,12 @@
 		A356661E2830DE65001B3EF4 /* AboutConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356661D2830DE65001B3EF4 /* AboutConfigurator.swift */; };
 		A35666202830DE78001B3EF4 /* AboutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356661F2830DE78001B3EF4 /* AboutRouter.swift */; };
 		A35666222830DEAC001B3EF4 /* AboutProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35666212830DEAC001B3EF4 /* AboutProtocols.swift */; };
+		A3A77FE328454F5D00F34564 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77FE228454F5D00F34564 /* MainViewController.swift */; };
+		A3A77FE528454F6F00F34564 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77FE428454F6F00F34564 /* MainPresenter.swift */; };
+		A3A77FE728454F8000F34564 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77FE628454F8000F34564 /* MainInteractor.swift */; };
+		A3A77FE928454F9100F34564 /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77FE828454F9100F34564 /* MainConfigurator.swift */; };
+		A3A77FEB28454FA200F34564 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77FEA28454FA200F34564 /* MainRouter.swift */; };
+		A3A77FED28454FB400F34564 /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A77FEC28454FB400F34564 /* MainProtocols.swift */; };
 		A3BB1FFB2832BFF7003581F1 /* ServicesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BB1FFA2832BFF7003581F1 /* ServicesProtocols.swift */; };
 		A3BB1FFD2832C08F003581F1 /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BB1FFC2832C08F003581F1 /* ServerService.swift */; };
 		A3E5D83B2833C92C00DD654E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D83A2833C92C00DD654E /* View.swift */; };
@@ -37,6 +43,12 @@
 		A356661D2830DE65001B3EF4 /* AboutConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutConfigurator.swift; sourceTree = "<group>"; };
 		A356661F2830DE78001B3EF4 /* AboutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutRouter.swift; sourceTree = "<group>"; };
 		A35666212830DEAC001B3EF4 /* AboutProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutProtocols.swift; sourceTree = "<group>"; };
+		A3A77FE228454F5D00F34564 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A3A77FE428454F6F00F34564 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		A3A77FE628454F8000F34564 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		A3A77FE828454F9100F34564 /* MainConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
+		A3A77FEA28454FA200F34564 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		A3A77FEC28454FB400F34564 /* MainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
 		A3BB1FFA2832BFF7003581F1 /* ServicesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesProtocols.swift; sourceTree = "<group>"; };
 		A3BB1FFC2832C08F003581F1 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
 		A3E5D83A2833C92C00DD654E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
@@ -98,6 +110,12 @@
 		A35666152830DD92001B3EF4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				A3A77FE228454F5D00F34564 /* MainViewController.swift */,
+				A3A77FE428454F6F00F34564 /* MainPresenter.swift */,
+				A3A77FE628454F8000F34564 /* MainInteractor.swift */,
+				A3A77FE828454F9100F34564 /* MainConfigurator.swift */,
+				A3A77FEA28454FA200F34564 /* MainRouter.swift */,
+				A3A77FEC28454FB400F34564 /* MainProtocols.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -219,18 +237,24 @@
 				A3BB1FFD2832C08F003581F1 /* ServerService.swift in Sources */,
 				A35666222830DEAC001B3EF4 /* AboutProtocols.swift in Sources */,
 				A3E5D8412833C95000DD654E /* Entity.swift in Sources */,
+				A3A77FE728454F8000F34564 /* MainInteractor.swift in Sources */,
 				A35666202830DE78001B3EF4 /* AboutRouter.swift in Sources */,
 				A356661C2830DE3E001B3EF4 /* AboutPresenter.swift in Sources */,
 				A3BB1FFB2832BFF7003581F1 /* ServicesProtocols.swift in Sources */,
 				A356661A2830DE2E001B3EF4 /* AboutInteractor.swift in Sources */,
 				A3E5D8432833C95800DD654E /* Router.swift in Sources */,
+				A3A77FEB28454FA200F34564 /* MainRouter.swift in Sources */,
+				A3A77FE528454F6F00F34564 /* MainPresenter.swift in Sources */,
 				A3E5D83D2833C93900DD654E /* Interactor.swift in Sources */,
+				A3A77FE928454F9100F34564 /* MainConfigurator.swift in Sources */,
 				A35665F72830DC3D001B3EF4 /* AppDelegate.swift in Sources */,
 				A35666182830DE13001B3EF4 /* AboutViewController.swift in Sources */,
 				A356661E2830DE65001B3EF4 /* AboutConfigurator.swift in Sources */,
 				A3E5D83F2833C94400DD654E /* Presenter.swift in Sources */,
+				A3A77FED28454FB400F34564 /* MainProtocols.swift in Sources */,
 				A3E5D83B2833C92C00DD654E /* View.swift in Sources */,
 				A3E5D84728343A6800DD654E /* UsersService.swift in Sources */,
+				A3A77FE328454F5D00F34564 /* MainViewController.swift in Sources */,
 				A35665F92830DC3D001B3EF4 /* SceneDelegate.swift in Sources */,
 				A3E5D8452833CF4F00DD654E /* UsersProtocols.swift in Sources */,
 			);
